@@ -331,11 +331,12 @@ html{
         justify-content: center;
         position: absolute;
         background-color: var(--primary-shades);
-        height: 75vh;
-        width: 100vw;
-        top: 0;
+        height: 100vh;
+        width: 55%;
+        top: 10px;
         left: 0;
         align-content: center;
+        display: none;
     }
 
    .navigation .list{
@@ -350,7 +351,7 @@ html{
     display: block;
    }
   .active .navigation{
-        transform: translateX(0%);
+        display: block;
     }
     .active .mobile #bar[name="menu"]{
         display: none;
