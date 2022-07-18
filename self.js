@@ -3,12 +3,14 @@
 
          const start=document.querySelector(".mobile")
         const head=document.querySelector(".header");
-
+        const mainDiv=document.querySelector("#main");
 
 const activeClass=()=>{
     head.classList.toggle("active");
 }
-
+ mainDiv.addEventListener('click',()=>{
+        head.classList.remove("active");
+    });
 
 start.addEventListener('click',activeClass);
 
