@@ -354,6 +354,7 @@ html{
    }
   .active .navigation{
         display: block;
+       transform: translateX(96%);
     }
     .active .mobile #bar[name="menu"]{
         display: none;
